@@ -1,0 +1,39 @@
+.add-task-btn{
+    background-color: blue;
+    color: white;
+}
+
+.add-task-input{
+    background-color: lightyellow;
+    color: black;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.add-task-action{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.task-list li{
+    background-color:lightskyblue;
+    color: black;
+    padding: 10px;
+    border: 3.5px solid blue;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.task-list .completed{
+    text-decoration: line-through;
+}
+
+.task-list .delete{
+    background-color: red;
+    padding: 0px 10px; 
+    cursor: pointer;
+} 
